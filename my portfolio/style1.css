@@ -1,0 +1,243 @@
+
+span{
+color: aliceblue;
+font-size: 40PX;
+font-weight:600;
+
+}
+.logo{
+   color: aliceblue;
+   display: flex;
+   align-items: center;
+}
+.color{
+    font-size: 30PX;
+    color:#20b2aa;
+
+}
+.para{
+  color: aliceblue;  
+  font-family: cursive;
+}
+header{
+   display: flex;
+   justify-content: space-between;
+   padding:20px;
+   background-color: #100e0e;
+
+}
+
+nav a:hover{
+    color:antiquewhite;
+   
+    }   
+    
+   nav a{
+    color:darkturquoise;
+    margin:10px;
+    text-decoration: none;
+    position: relative;
+    
+    }
+    
+ body{
+    background:url(assets/gradient.jpg) no-repeat;
+    background-size: cover;
+ }   
+ .card-1{
+   margin: 50px; 
+  padding: 50px;
+ }
+ .home-content{
+    padding: 10px;
+    margin: 10px;
+    text-align:center;
+ }
+ 
+ .head{
+    color: aliceblue;
+ }
+section{
+   background-color: black;
+   padding: 80px;
+   margin: 30px;
+}
+.alignment{
+text-align: center;
+
+}
+.services-box{
+   display:flex;
+   flex-direction: row;
+   justify-content: space-around;
+   margin: 20px;
+   
+} 
+.flex-item1{
+  display: flex; 
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(to bottom,#100e0e,#013220);
+  margin-bottom: 20px;
+  
+
+
+}
+.flex-item2{
+   display: flex; 
+   align-items: center;
+   flex-direction: column;
+ background-color:#383632;
+ 
+
+}
+.flex-item3{
+   display: flex; 
+   align-items: center;
+   flex-direction: column;
+ background: linear-gradient(to bottom,#100e0e,#013220);
+ margin-bottom: 20px;
+ 
+
+}
+.flex-item4{
+   display: flex; 
+   align-items: center;
+   flex-direction: column;
+   background-color:#383632;
+  
+ 
+
+}
+.image{
+   margin: 10px;
+   padding-top: 20px;
+   
+}
+.change{
+   color: aliceblue;
+   font-weight: 30px;
+   font-size: 35px;
+}
+h4{
+   color:#20b2aa;
+}
+p{
+   color: azure;
+   display: flex;
+   align-self: center;
+   padding: 11px;
+   
+}
+h5{
+   color:#20b2aa;
+}
+
+ .color2{
+
+   color:#20b2aa;
+
+ }  
+   
+
+.card-2{
+  margin: 50px; 
+  padding: 50px;
+}
+ .line{
+   width:8%;
+   color:#20b2aa ;
+ }
+.card-3{
+background-color:#222222;
+padding: 50px;
+margin: 50px;
+
+}
+
+ .headings{
+   color:aliceblue ;
+   justify-content: left;
+   margin-left: 30px;
+   font-size: large;
+ }
+ .name{
+   color: #20b2aa;
+   justify-content: left;
+   margin-left: 30px;
+   font-size:15px ;
+ } 
+ 
+ .items{
+display: flex;
+justify-content: left;
+padding-bottom: 20px;
+
+ }
+  .grid-container{
+   display: grid;
+   grid-template-columns: repeat(auto-fill,minmax(350px ,1fr));
+gap: 30px;
+padding: 40px; 
+
+ } 
+ .items:hover{
+transform:scale(1.05);
+
+ }
+ 
+ .pics{
+float: left;
+
+ }
+ .text{
+   color: darkgrey;
+   margin-left: 20px;
+ }
+.para{
+   color:darkgray;
+}
+ 
+ .profile{
+   font-size: 20px;
+   font-weight:bold;
+   color:#20b2aa;
+ }
+footer p{
+color:#20b2aa;
+display: flex;
+justify-content: center;
+margin-top:10px ;
+}
+ .container{
+   display: flex; 
+   justify-content:center ;
+   gap:20px;
+ padding: 10px;
+
+ }
+  
+ .last{
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   gap:40px;
+
+ }
+
+ @media(min-width:1200px){
+body{
+   max-width:  width 1200px;
+   margin: 0 auto;
+}
+
+ }
+   
+ @media(min-width:1200px){
+   header footer{
+      max-width:  width 1200px;
+      margin: 0 auto;
+   }
+   
+    }
+      
